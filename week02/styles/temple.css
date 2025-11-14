@@ -42,12 +42,16 @@ section {
     padding: 10px;
     background-color: #abe;
     font-size: .9rem;
-    
-ul {
-    margin: 30px;
 }
 
+section p {
+    margin: 10px;
 }
+
+ul {
+    margin-left: 20px;
+}
+
 footer {
     font-size: .9rem;
 }
