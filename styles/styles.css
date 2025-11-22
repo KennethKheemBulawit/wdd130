@@ -3,7 +3,11 @@
     --height: auto;
 }
 
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 nav {
     background-color: darkblue;
@@ -50,7 +54,7 @@ aside img {
 }
 
 main img {
-
+float: right;
 width: 150px;
 height: var(--height);
 border: black;
@@ -68,4 +72,25 @@ footer {
     border-top: 1px solid #000;
     text-align: var(--text-align);
     
+}
+
+/*Class Selectors*/
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: #ddd;
+    color: 000;
+}
+
+.aside {
+    width: 20rem;
+    text-align: center;
+}
+
+aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 100px;
 }
