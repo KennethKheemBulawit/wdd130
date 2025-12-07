@@ -17,13 +17,14 @@ h1 {
 
 .herodiv {
     margin: 10px auto;
-    /* position: relative; if removed, what happens?*/
+    /* position: relative;  */
 }
 
 .herodiv img {
     width: 100%;
     height: 300px;
     object-fit: cover;
+    
 }
 
 .stats {

@@ -7,12 +7,15 @@ main {
 }
 
 p {
-    text-align: justify;
+    text-align: left;
+    /* padding: 1rem; */
+    margin: 1rem;
+
 }
 
 .col1 img {
-    float: left;
-    margin: 0 0 15px 15px;
+    float: right;
+    margin: 0 15px 15px 15px;
     border: 1px solid rgba(0 0 0 / .3);
     box-shadow: 0 0 30px #777;
 }
@@ -20,7 +23,8 @@ p {
 footer {
     border-top: 1px solid #555;
     padding-top: 5px;
+    margin: 0;
     /* Remove the comment below and observe the results. */
 
-    /* clear: both; */
+    /* clear: right; */
 }
